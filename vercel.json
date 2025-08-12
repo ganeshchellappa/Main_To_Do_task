@@ -6,8 +6,8 @@
   "routes": [
     { "src": "/(.*)", "dest": "app.py" }
   ],
-  "env": {
-    "NEON_CONN_STRING": "@neon_conn_string",
-    "API_KEY": "@openrouter_api_key"
-  }
+"env": {
+  "NEON_CONN_STRING": "postgresql://neondb_owner:npg_C1DUdQcV6RLX@ep-square-queen-adzxdh9r-pooler.c-2.us-east-1.aws.neon.tech/neondb",
+  "API_KEY": "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"
+}
 }
