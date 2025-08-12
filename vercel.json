@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "app.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "app.py" }
+  ],
+  "env": {
+    "NEON_CONN_STRING": "@neon_conn_string",
+    "API_KEY": "@openrouter_api_key"
+  }
+}
