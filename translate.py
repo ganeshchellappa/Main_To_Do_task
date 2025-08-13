@@ -25,16 +25,6 @@ LANG_CODES = {
 
 
 def translate_text(text, target_lang):
-    lang_ids = {
-        "en": 250004, "hi": 250044, "fr": 250018, "de": 250019,
-        "es": 250026, "zh": 250039, "ja": 250036, "ko": 250037,
-    }
-   
-    lang_id = lang_ids.get(target_lang.lower())
-    # print("language used",lang_id)
-
-    if lang_id is None:
-        return "Unsupported language"
 
     headers = {
         "Authorization": f"Bearer {API_KEY}",
