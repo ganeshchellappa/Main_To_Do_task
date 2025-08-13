@@ -8,6 +8,6 @@
   ],
 "env": {
   "NEON_CONN_STRING": "postgresql://neondb_owner:npg_C1DUdQcV6RLX@ep-square-queen-adzxdh9r-pooler.c-2.us-east-1.aws.neon.tech/neondb",
-  "API_KEY": "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"
+  "API_KEY": "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"
 }
 }
